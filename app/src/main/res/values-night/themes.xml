@@ -1,0 +1,13 @@
+<resources>
+    <!-- Definición del estilo base para la aplicación -->
+    <style name="Theme.Cementerykeeper" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Fondo de pantalla -->
+        <item name="android:windowBackground">@drawable/fondo</item>
+        <!-- Fuente para todo el texto de la aplicación -->
+        <item name="android:fontFamily">@font/kelmscot</item>
+        <item name="android:typeface">serif</item>
+        <!-- Color de texto predeterminado -->
+        <item name="android:textColor">@color/text_gray</item>
+        <item name="colorPrimary">@color/primary_color</item>
+    </style>
+</resources>

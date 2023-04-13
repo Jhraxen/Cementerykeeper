@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    tools:context=".FragmentDetail">
+
+    <ImageView
+        android:id="@+id/cementery_imageDetail"
+        android:layout_width="380dp"
+        android:layout_height="314dp"
+        android:scaleType="centerCrop" />
+
+    <RatingBar
+        android:id="@+id/rating_barDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cementery_imageDetail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:stepSize="1" />
+
+    <EditText
+        android:id="@+id/cementery_nameDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rating_barDetail"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+    <TextView
+        android:id="@+id/cementery_locationDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cementery_nameDetail"
+        android:drawableStart="@drawable/ic_gps"
+        android:drawablePadding="8dp"
+        android:gravity="start|center_vertical"
+        android:textAppearance="?attr/textAppearanceListItemSecondary" />
+
+    <EditText
+        android:id="@+id/cementery_descriptionDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cementery_locationDetail"
+        android:textAppearance="?attr/textAppearanceListItemSecondary" />
+
+    <Button
+        android:id="@+id/delete_buttonDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_below="@id/cementery_descriptionDetail"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:id="@+id/modify_buttonDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modify"
+        android:layout_below="@id/cementery_descriptionDetail"
+        android:layout_marginTop="16dp"
+        android:layout_toLeftOf="@id/delete_buttonDetail"
+        android:layout_toStartOf="@id/delete_buttonDetail" />
+
+    <TextView
+        android:id="@+id/cemetery_scoreDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0" />
+
+</RelativeLayout>

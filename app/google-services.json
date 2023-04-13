@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "18732357102",
+    "project_id": "cementerykeeper-407d6",
+    "storage_bucket": "cementerykeeper-407d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:18732357102:android:fa2d59976e1bc18a6eeaff",
+        "android_client_info": {
+          "package_name": "com.example.cementerykeeper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "18732357102-c1h1gjrmvfi80q1i925fgvrf6bonpbcc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSnZs9s2OPLDNXYl7JJ0_G3IGv3iSh85A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "18732357102-c1h1gjrmvfi80q1i925fgvrf6bonpbcc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

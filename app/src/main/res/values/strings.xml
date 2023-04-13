@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Cementerykeeper</string>
+    <string name="Username">Username</string>
+    <string name="password">Password</string>
+    <string name="name">Cementery Name</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="newCementery">Nuevo Cementerio</string>
+    <string name="home">Menu Principal</string>
+    <string name="cementeryList">Lista Cementerio</string>
+    <string name="logout">logout</string>
+    <string name="Delete">borrar</string>
+</resources>
